@@ -135,7 +135,7 @@ When I saw that I had to use React for this challenge, my heart dropped. Fronten
 I started by reading the instructions carefully and writing down every concept I didn't understand. Although I am familiar with the general concepts and flow, I had to ensure the setup was correct and look up JavaScript syntax. I encountered an issue where the package.json file wasn't being read properly, but a clean installation and setup resolved this.
 
 ### Initial Implementation
-I began by working on the Toast.js component. This part required the most research as I had to reverse engineer functions from various sources to fit my needs. 
+I began by working on the Toast.js component. This part required the most research as I had to reverse engineer functions from various sources to fit my needs. I tried using GitHub Copilot to try and catch my errors in syntax, but realized that it could correct them, but did not help me with the understanding of said functions when trying to reverse engineer code or understand something I had not seen before, or didn't remember.
 
 ### Debugging and Errors
 My first attempt was riddled with issues. I encountered multiple uncaught runtime errors related to type mismatches, which took time to diagnose and fix. There were moments of panic and despair as I struggled to make progress and understand the source of the errors. It was really frustrating particularly when I did not seem to understand where the error was coming from despite looking through the documentation and examples. After finding a post on StackOverflow addressing a similar issue, I noticed that the main issue was how 'Header', 'Content', and 'Toast' were being exported.
