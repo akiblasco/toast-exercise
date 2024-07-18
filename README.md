@@ -121,6 +121,31 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Learn More
 
+
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Challenge Development Process Documentation 
+
+### Initial Reaction
+When I saw that I had to use React for this challenge, my heart dropped. Frontend development is not my main focus, and I knew I would spend a significant amount of time researching and googling to complete this task.
+
+### Research and Setup
+I started by reading the instructions carefully and writing down every concept I didn't understand. Although I am familiar with the general concepts and flow, I had to ensure the setup was correct and look up JavaScript syntax. I encountered an issue where the package.json file wasn't being read properly, but a clean installation and setup resolved this.
+
+### Initial Implementation
+I began by working on the Toast.js component. This part required the most research as I had to reverse engineer functions from various sources to fit my needs. I also used GitHub Copilot for minor debugging since JavaScript and React syntax were taking me a long time.
+
+### Debugging and Errors
+My first attempt was riddled with issues. I encountered multiple uncaught runtime errors related to type mismatches, which took time to diagnose and fix. There were moments of panic and despair as I struggled to make progress and understand the source of the errors. It was really frustrating particularly when I did not seem to understand where the error was coming from despite looking through the documentation and examples. After finding a post on StackOverflow addressing a similar issue, I noticed that the main issue was how 'Header', 'Content', and 'Toast' were being exported.
+
+Then, I verified that these components were imported correctly in App.js using default import syntax without curly braces. This addressed the issue of React receiving an object instead of a valid component type, which resolved the errors and allowed the application to render properly. This is what led to doing the challenge in its most rudimentary form, but at least the functionality seemed to work as expected.
+
+### Learning and Progress
+Despite the initial challenges, I kept pushing forward. Running npm test showed that tests were passing, but I still faced issues in the local server. This discrepancy highlighted my need to better understand the code and environment, and I realized most of my mistakes did not happen because of my logic, but because of my lack of familiarity with the tools. After several hours of tutorials and documentation, I was able to make significant progress. To be completely honest, since I started looking at this while I was still in class, I do not know how much time it took, but it might have been a little over the time limit. After all this time, and thoroughly familiarizing myself with the environment and code, I finally completed the challenge. Everything seemed to work as expected, and even though I felt a sense of accomplishment in overcoming the difficulties I still feel I need to work harder. 
+
+Conclusion
+This challenge was a valuable learning experience that pushed me out of my comfort zone. Despite my primary focus being on backend and AI, I was able to tackle a frontend challenge by leveraging documentation, tutorials, and debugging tools. Personally, I think this experience has not only challenged me to work using my weakest skillset, but strengthened my resolve to become a SWE.
+
+
